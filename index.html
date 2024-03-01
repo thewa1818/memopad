@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="bmi">
+
+  <h1 class="bmi_title">BMIを測定する</h1>
+
+<div class="bmi_day">日付<input id="day" type="date"></div>
+
+<div class="bmi_tall">身長
+  <input id="tall" type="number">
+</div>
+
+<div class="bmi_weight">体重<input id="weight" type="number"></div>
+
+<div class="btn_flex">
+  <div class="bmi_btn"><button id="btn">計算する</button></div>
+
+<div class="bmi_btn2"><button id="btn2">クリア</button></div></div>
+
+
+
+<div class="bmi_total">あなたのBMIは<span id="bmi_kekka"></span>です</div>
+
+<div id="bmi_text"></div>
+
+<div id="bmi_click">あなたにおすすめのダイエット法はこちら</div>
+
+
+<div id="list">
+</div>
+
+<div class="bmi_btn3"><button id="btn3">データを削除する</button></div>
+
+</div>
+
+<div class="diet">
+  <div class="diet_yase">
+    <h1 class="diet_title">痩せすぎなあなたには</h1>
+    <p class="diet_text">栄養が足りていないので、まずは3食しっかり食べよう。<br>おすすめはラーメン二郎。</p>
+    <div class="diet_close"><img src="img/1.png" alt=""></div>
+  </div>
+
+  <div class="diet_tekisei">
+    <h1 class="diet_title">適正体重のあなたには</h1>
+    <p class="diet_text">今の健康な状態をキープしよう！<br>適度な運動も取り入れるとGOOD</p>
+    <div class="diet_close"><img src="img/1.png" alt=""></div>
+  </div>
+
+  <div class="diet_pocha">
+    <h1 class="diet_title">ぽっちゃりなあなたには</h1>
+    <p class="diet_text">もう少しPFCバランスを意識しよう<br>タンパク質は美容にもいいよ</p>
+    <div class="diet_close"><img src="img/1.png" alt=""></div>
+  </div>
+
+  <div class="diet_debu">
+    <h1 class="diet_title">デブなあなたには</h1>
+    <p class="diet_text">このままじゃ命が危ない！<br>食事をプロテインに置き換えよう</p>
+    <div class="diet_close"><img src="img/1.png" alt=""></div>
+  </div>
+
+</div>
+
+<div class="diet_video">
+  <div class="player">
+  
+    
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+   <!-- jqueryが必ず先！ -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <!--  -->
+   <script src="js/app.js"></script>
+  
+</body>
+</html>

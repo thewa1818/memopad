@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+.bmi {
+  padding: 20px;
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: rgba(135, 207, 235, 0.669);
+}
+
+.bmi_title{
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.bmi_day,.bmi_tall,.bmi_weight{
+ padding-bottom: 10px;
+ 
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+}
+
+.btn_flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  width: 150px;
+}
+
+.bmi_total{
+  display: none;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+#bmi_text {
+  padding: 20px;
+  font-size: 20px;
+}
+
+#bmi_click {
+margin: auto;
+ width: 400px;
+ display: none;
+ background-color: #9a9696;
+ color: #fff;
+ padding: 10px;
+ border-radius: 10px;
+ transition: all;
+ cursor: pointer;
+}
+
+#bmi_click:hover{
+ opacity: 0.7;
+}
+
+#list{
+  width: 400px;
+  margin: 30px auto;
+}
+
+tr {
+ display: block;
+ padding: 20px;
+ margin: 10px;
+ border: 1px solid #000;
+}
+
+
+.diet{
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5; */
+}
+
+.diet_yase,.diet_tekisei,.diet_pocha,.diet_debu {
+ position: fixed;
+ z-index: 5;
+ top: 0;
+ right: 0;
+ left: 0;
+ bottom: 0;
+ margin: auto;
+ width: 500px;
+ height: 200px;
+ background-color: #000;
+ color: #fff;
+ display: none;
+}
+
+.diet_title{
+  text-align: center;
+  font-size: 30px;
+  padding: 30px;
+  font-weight: bold;
+  border-bottom: 1px solid #fff;
+}
+
+.diet_text{
+  padding: 20px;
+  line-height: 30px;
+}
+
+.diet_close img {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
